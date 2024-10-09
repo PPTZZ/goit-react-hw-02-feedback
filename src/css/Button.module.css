@@ -1,0 +1,17 @@
+.btn{
+    width: 5rem;
+    height: 2rem;
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}

@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
+  base: "/goit-react-hw-02-feedback/",
   plugins: [react()],
 })
