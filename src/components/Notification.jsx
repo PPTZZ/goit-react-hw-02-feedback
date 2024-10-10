@@ -3,7 +3,7 @@ const Notification = ({message}) => {
     
     return(
         <>
-            <p>{message}</p>
+            <h1>{message}</h1>
         </>
     );
 };

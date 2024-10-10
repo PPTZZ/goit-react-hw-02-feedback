@@ -3,18 +3,19 @@ import style from '../css/Button.module.css'
 
 
 
-const Button = ({handleValue,label}) => {
+const Button = ({handleChange,label}) => {
     
     return(
         <>
-            <button type="button" className={style.btn} onClick={handleValue}>{label}</button>
+            <button type="button" className={style.btn} onClick={handleChange}>{label}</button>
         </>
     );
 };
 
 
 Button.propTypes = {
+    good:PropTypes.any,
     label: PropTypes.string.isRequired,
-    handleValue: PropTypes.func.isRequired
+    handleChange: PropTypes.func
   };
 export default Button;
