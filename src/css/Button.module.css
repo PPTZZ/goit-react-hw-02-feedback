@@ -5,6 +5,7 @@
     font-weight: bolder;
     border: none;
     border-radius: 5px;
+    margin-left: 15px;
 }
 
 .btn:hover{

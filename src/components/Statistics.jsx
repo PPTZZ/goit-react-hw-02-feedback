@@ -3,7 +3,6 @@ const Statistics = ({ stats }) => {
 	const { good, neutral, bad, total} = stats;
 	return (
 		<>
-			<h1>Statistics</h1>
 			<h2>Posistive: {good}</h2>
 			<h2>Neutral: {neutral}</h2>
 			<h2>Negative: {bad}</h2>

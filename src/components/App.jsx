@@ -44,11 +44,13 @@ class App extends Component {
 		const { total } = this.state;
 		return (
 			<>
+      <Section title='Statistics'>
 				{total > 0 ? (
 					<Statistics stats={this.state} />
 				) : (
-					<Notification message='There is no feedback' />
+					<Notification message='There is no feedback yet...' />
 				)}
+        </Section>
 				<Section title='Please add a feedback'>
 					<Button label='Positive' handleChange={this.incrementPositive} />
 					<Button label='Neutral' handleChange={this.incrementNeutral} />
